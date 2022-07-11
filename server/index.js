@@ -1,1 +1,0 @@
-// fetch data from data/questions.json and serve as an api the web-app
