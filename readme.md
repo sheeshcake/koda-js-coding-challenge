@@ -21,7 +21,7 @@ Implement the screens based on the wireframes and api below using advanced techn
 
 Data:
 
-The api url is: https://opentdb.com/api.php?amount=10&difficulty=hard&type=boolean
+The api url is: https://opentdb.com/api.php?amount=10&difficulty=easy&type=boolean
 
 Sample returned json:
 
@@ -63,7 +63,7 @@ Sample returned json:
 
 - The Score shows correct and total
 - Displays a list of the questions and whether the answer was correct or not
-- PLAY AGAIN starts over and navigates to the Home Screen
+- PLAY AGAIN starts over with new questions and navigates to the Home Screen
 
 ## Submission
 
