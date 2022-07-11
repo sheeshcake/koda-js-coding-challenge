@@ -17,10 +17,10 @@ Your challenge is to create a simple, 10 question, true or false, trivia app in 
 
 Implement the screens based on the wireframes and api below using advanced techniques and industry best practices for your platform. Note that the wireframes may not be complete, so use your best judgment for UI/UX implementation. **Do not use a boilerplate like React Boilerplate for this challenge.** We want to see how you structure your project and what tooling you use from scratch. Create react app is fine to use.
 
-## Details
+## Steps
 
-Data:
-
+#### 1. Fork this repo and use web-app folder as code boilerplate to start
+#### 2. Data:
 The api url is: https://opentdb.com/api.php?amount=10&difficulty=easy&type=boolean
 
 Sample returned json:
