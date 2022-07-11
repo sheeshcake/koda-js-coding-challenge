@@ -20,26 +20,8 @@ Implement the screens based on the wireframes and api below using advanced techn
 ## Steps
 
 #### 1. Fork this repo and use web-app folder as code boilerplate to start
-#### 2. Data:
-The api url is: https://opentdb.com/api.php?amount=10&difficulty=easy&type=boolean
-
-Sample returned json:
-
-```javascript
-{
-  "response_code": 0,
-  "results": [
-    {
-      "category": "Entertainment: Video Games",
-      "type": "boolean",
-      "difficulty": "hard",
-      "question": "Unturned originally started as a Roblox game.",
-      "correct_answer": "True",
-      "incorrect_answers": [
-        "False"
-      ]
-    },…]}
-```
+#### 2. Server:
+Please setup a node.js server to load data from `server/data/questions.json` and serve as an api for the frontend
 
 ### Intro / Home Screen:
 
