@@ -21,7 +21,7 @@ Implement the screens based on the wireframes and api below using advanced techn
 
 Data:
 
-The api url is: https://opentdb.com/api.php?amount=10&difficulty=hard&type=boolean
+The api url is: https://opentdb.com/api.php?amount=10&difficulty=easy&type=boolean
 
 Sample returned json:
 
