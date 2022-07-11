@@ -50,7 +50,7 @@ Sample returned json:
 
 ### Quiz Screen:
 
-![The Quiz screen for the app](screenshots/quiz.png "The Quiz screen for the app")
+![The Quiz screen for the app](screenshots/Quiz.png "The Quiz screen for the app")
 
 - The headline is from question category
 - The card element contains the current question
@@ -59,7 +59,7 @@ Sample returned json:
 
 ### Results screen:
 
-![The Results screen for the app](screenshots/score.png "The Results screen for the app")
+![The Results screen for the app](screenshots/Score.png "The Results screen for the app")
 
 - The Score shows correct and total
 - Displays a list of the questions and whether the answer was correct or not
