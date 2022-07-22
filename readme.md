@@ -24,7 +24,7 @@ Implement the screens based on the wireframes and api below using advanced techn
 Please setup a node.js server to load data from `server/data/questions.json` and serve as an api for the frontend
 
 #### 3. UI requirement:
-We provide the design for the trivia app. You can check the figma file [here](https://www.figma.com/file/jv7BCh5IYu6xovF6zHy8Ab/Koda-React-Coding-Test?node-id=0%3A1). You don't need to follow exactly the same if you do not have enough time. We want to see your general HTML/CSS skills and how you behavior when converting a design into a real product. 
+We provide the design for the trivia app. You can check the figma file [here](https://www.figma.com/file/jv7BCh5IYu6xovF6zHy8Ab/Koda-React-Coding-Test?node-id=0%3A1). You don't need to follow exactly the same if you do not have enough time. We want to see your general HTML/CSS skills and how you behavior when converting a design into a real product. `(Logo and background image are located in web-app/src/images)`
 
 ### Intro / Home Screen:
 
