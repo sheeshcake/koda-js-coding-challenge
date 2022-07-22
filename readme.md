@@ -23,6 +23,9 @@ Implement the screens based on the wireframes and api below using advanced techn
 #### 2. Server:
 Please setup a node.js server to load data from `server/data/questions.json` and serve as an api for the frontend
 
+#### 3. UI requirement:
+We provide the design for the trivia app. You can check the figma file [here](https://www.figma.com/file/jv7BCh5IYu6xovF6zHy8Ab/Koda-React-Coding-Test?node-id=0%3A1). You don't need to follow exactly the same if you do not have enough time. We want to see your general HTML/CSS skills and how you behavior when converting a design into a real product. 
+
 ### Intro / Home Screen:
 
 ![The Intro screen for the app](screenshots/intro.png "The Intro screen for the app")
@@ -32,7 +35,7 @@ Please setup a node.js server to load data from `server/data/questions.json` and
 
 ### Quiz Screen:
 
-![The Quiz screen for the app](screenshots/Quiz.png "The Quiz screen for the app")
+![The Quiz screen for the app](screenshots/quiz.png "The Quiz screen for the app")
 
 - The headline is from question category
 - The card element contains the current question
@@ -41,7 +44,7 @@ Please setup a node.js server to load data from `server/data/questions.json` and
 
 ### Results screen:
 
-![The Results screen for the app](screenshots/Score.png "The Results screen for the app")
+![The Results screen for the app](screenshots/result.png "The Results screen for the app")
 
 - The Score shows correct and total
 - Displays a list of the questions and whether the answer was correct or not
