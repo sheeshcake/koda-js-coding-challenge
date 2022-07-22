@@ -35,7 +35,7 @@ We provide the design for the trivia app. You can check the figma file [here](ht
 
 ### Quiz Screen:
 
-![The Quiz screen for the app](screenshots/quiz.png "The Quiz screen for the app")
+![The Quiz screen for the app](screenshots/quiz-detail.png "The Quiz screen for the app")
 
 - The headline is from question category
 - The card element contains the current question
