@@ -38,7 +38,7 @@ cd <repository_folder>
    node server.js
    ```
 
-The server will now be running. Check the terminal for the port (default is often `http://localhost:3000`).
+The server will now be running. Check the terminal for the port (default is often `http://localhost:3001`).
 
 ---
 
