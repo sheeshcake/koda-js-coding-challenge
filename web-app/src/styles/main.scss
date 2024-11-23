@@ -1,9 +1,17 @@
+/* ./src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 .App {
   background-color: #eee;
+  background-image: url('../images/bg.png');
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-content: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .page {

@@ -2,15 +2,17 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import HomePage from './pages/home'
+import QuizPage from './pages/quiz'
 
 import './styles/main.scss'
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App items-center">
         <Routes>
           <Route element={<HomePage />} path="/" />
+          <Route element={<QuizPage />} path="/quiz" />
         </Routes>
       </div>
     </BrowserRouter>

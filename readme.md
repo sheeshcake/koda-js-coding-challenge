@@ -1,55 +1,73 @@
-# Koda JavaScript Coding Challenge
+# Coding Challenge
 
-## Overview
+## Prerequisites
+Ensure you have the following installed on your machine:
+- **Node.js** (v16 or higher recommended)
+- **Yarn** (Package manager)
 
-Your challenge is to create a simple, 10 question, true or false, trivia app in the technology you are familiar with. While the problem you are working on is simple, you should treat this like a real world application. This is a chance to show off your abilities and impress.
+---
 
-**What we are looking for through this challenge:**
+## Steps to Run Locally
 
-- Functionality
-- Code Format
-- Project Structure
-- Scalability
-- Maintainability
-- Use of industry best practices
+### 1. Clone the Repository
+```bash
+git clone <repository_url>
+cd <repository_folder>
+```
 
-## Goals
+---
 
-Implement the screens based on the wireframes and api below using advanced techniques and industry best practices for your platform. Note that the wireframes may not be complete, so use your best judgment for UI/UX implementation. **Do not use a boilerplate like React Boilerplate for this challenge.** We want to see how you structure your project and what tooling you use from scratch. Create react app is fine to use.
+### 2. Setting Up the **Server**
 
-## Steps
+1. Navigate to the `server` folder:
+   ```bash
+   cd server
+   ```
 
-#### 1. Fork this repo and use web-app folder as code boilerplate to start
-#### 2. Server:
-Please setup a node.js server to load data from `server/data/questions.json` and serve as an api for the frontend
+2. Install dependencies:
+   ```bash
+   yarn install
+   ```
+   Or simply:
+   ```bash
+   yarn
+   ```
 
-#### 3. UI requirement:
-We provide the design for the trivia app. You can check the figma file [here](https://www.figma.com/file/jv7BCh5IYu6xovF6zHy8Ab/Koda-React-Coding-Test?node-id=0%3A1). You don't need to follow exactly the same if you do not have enough time. We want to see your general HTML/CSS skills and how you behavior when converting a design into a real product. `(Logo and background image are located in web-app/src/images)`
+3. Start the server:
+   ```bash
+   node server.js
+   ```
 
-### Intro / Home Screen:
+The server will now be running. Check the terminal for the port (default is often `http://localhost:3000`).
 
-![The Intro screen for the app](screenshots/intro.png "The Intro screen for the app")
+---
 
-- Static Text
-- BEGIN button navigates to the Quiz screen and starts the Quiz
+### 3. Setting Up the **Web App**
 
-### Quiz Screen:
+1. Navigate to the `web-app` folder:
+   ```bash
+   cd ../web-app
+   ```
 
-![The Quiz screen for the app](screenshots/quiz-detail.png "The Quiz screen for the app")
+2. Install dependencies:
+   ```bash
+   yarn install
+   ```
+   Or simply:
+   ```bash
+   yarn
+   ```
 
-- The headline is from question category
-- The card element contains the current question
-- The next question should appear after the current question is answered True or False
-- After all questions have been answered, navigate to the Results Screen
+3. Start the application:
+   ```bash
+   yarn start
+   ```
 
-### Results screen:
+The web app will be available in your browser at `http://localhost:3000` by default.
 
-![The Results screen for the app](screenshots/result.png "The Results screen for the app")
+---
 
-- The Score shows correct and total
-- Displays a list of the questions and whether the answer was correct or not
-- PLAY AGAIN starts over with new questions and navigates to the Home Screen
+### Notes
+- Ensure the **server** is running before starting the **web app** for proper API communication.
 
-## Submission
-
-Please use git for version control and platforms like Github to host the repository. Once you have finished your challenge, send us the repository url. It would be even better if you can have a documentation for how to run your code in our environment.
+---
