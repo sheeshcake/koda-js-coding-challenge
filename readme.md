@@ -37,6 +37,10 @@ cd <repository_folder>
    ```bash
    node server.js
    ```
+   Or:
+   ```bash
+   yarn start
+   ```
 
 The server will now be running. Check the terminal for the port (default is often `http://localhost:3001`).
 
